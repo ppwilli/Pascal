@@ -9,7 +9,7 @@ jQuery( document ).ready(function() {
 	jQuery('#draco-menu-back').hide();
 	jQuery('#draco-menu-home').hide();
 
-	jQuery("#top-menu .page_item_has_children, #top-menu .menu-item-has-children" ).append( '<strong style="margin-left:20px;" class="draco-submenu-button"><span class="dashicons dashicons-plus"></span></strong>' );
+	jQuery("#top-menu .page_item_has_children, #top-menu .menu-item-has-children" ).append( '<strong class="draco-submenu-button"><span class="dashicons dashicons-plus-alt"></span></strong>' );
 
 	jQuery( "#top-menu > ul li .draco-submenu-button" ).click(function() {
 		if(draco_level==0) {

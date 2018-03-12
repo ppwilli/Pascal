@@ -92,6 +92,16 @@ function draco_custom_css_output() {
     color:<?php echo esc_html(get_theme_mod( 'head_txt_color', '#eee')); ?>;
   }
 
+  #top-menu li:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30px; /* Change this to whatever width you want. */
+    margin-bottom: 0.7em;
+    margin-top: 0.7em;
+   
+  }
+
   .image-draco-header{
     width:100%;
     height:100%;

@@ -4,7 +4,7 @@ Theme URI: https://www.webpsilon.com/wpthemes
 Author: Webpsilon
 Author URI: https://www.webpsilon.com/
 Description: Draco for WordPress. Fully responsive, it adapts to any screen configuration. Header with a zoom effect on the image using css. Customizable design.
-Version: 1.2.3
+Version: 1.2.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: draco
@@ -672,7 +672,7 @@ template {
 .custom-logo {
   margin-left:20px;
   margin-top: 20px;
-  max-width: 100%;
+  max-width: 50% !important;
   height: auto;
 }
 .info{
@@ -768,11 +768,9 @@ template {
     overflow: hidden;
     overflow: visible!important;
     text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: 1.5em;
-    line-height: 1.5em;
+    font-size: 1.2em;
+    
 }
-
 
 /* top menu */
 
@@ -938,10 +936,9 @@ template {
 }
 
 #draco-menu-home {
-  position: fixed;
-  top: 20px;
-  left: 46%;
-  padding: 13px;
+  position: relative;
+  margin: 0 auto;
+  padding: 0.7em;
   font-size: 2em;
   z-index: 10;
   height: 50px;
@@ -952,8 +949,8 @@ template {
 
 
 .draco-submenu-button span {
-  margin-bottom: 0.5em;
   cursor: pointer;
+  margin-left: 0.3em;
 }
 
 
@@ -971,6 +968,7 @@ template {
     height: 100%;
     visibility: inherit;
     box-sizing: border-box;
+    overflow-x: auto;
 }
 
 .header-menu ul ul {

@@ -74,7 +74,11 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
     Changelog
 -------------------------------------------------------
 
-Version 1.2.3
+= 1.2.4 =
+
+Responsive logo and improvements in top menu design.
+
+= 1.2.3 =
 
 ------------------------------------------------------
     Thanks
