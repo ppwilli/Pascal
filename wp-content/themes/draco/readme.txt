@@ -74,6 +74,10 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
     Changelog
 -------------------------------------------------------
 
+= 1.2.5 =
+
+Responsive header images in apple devices.
+
 = 1.2.4 =
 
 Responsive logo and improvements in top menu design.

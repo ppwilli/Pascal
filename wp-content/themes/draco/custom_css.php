@@ -124,7 +124,7 @@ function draco_custom_css_output() {
       <?php } ?>
 
     background-size:cover;
-    background-attachment:fixed;
+    background-attachment:scroll;
     -webkit-animation: grow 60s  linear 10ms infinite;
     animation: grow 60s  linear 10ms infinite;
 
