@@ -1,0 +1,115 @@
+0000.000 (0) Opened log file at time: Wed, 14 Mar 2018 12:30:56 +0000 on http://prassler.ikt.khk.ee/wordpress
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.4 PHP: 7.0.28 (cgi-fcgi, Linux ikt.khk.ee 3.10.0-693.5.2.el7.x86_64 #1 SMP Fri Oct 20 20:32:50 UTC 2017 x86_64) MySQL: 5.6.38 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.4M | 18M) multisite: N openssl: OpenSSL 1.0.2n  7 Dec 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.119 (0) Free space on disk containing Updraft's temporary directory: 372616.7 MB
+0000.121 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: manual)
+0000.122 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.124 (0) Semaphore (f, wp_options) being initialised
+0000.130 (0) Requesting semaphore lock (f) (apparently not via scheduler)
+0000.132 (0) Set semaphore last lock (f) time to 2018-03-14 12:30:57
+0000.132 (0) Semaphore lock (f) complete
+0000.134 (0) Backup run: resumption=0, nonce=1b06735c8fe2, begun at=1521030656 (1s ago), job type=backup
+0000.135 (0) Scheduling a resumption (1) after 300 seconds (1521030957) in case this run gets aborted
+0000.150 (0) Checking if we have a zip executable available
+0000.151 (0) Testing: /usr/bin/zip
+0000.158 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.159 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.160 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.160 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.161 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.166 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.167 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.178 (0) Working binary zip found: /usr/bin/zip
+0000.179 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.180 (0) Creation of backups of directories: beginning
+0000.183 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.369 (0) Total entities for the zip file: 283 directories, 1640 files (0 skipped as non-modified), 26.8 MB
+0000.371 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.374 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.376 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.379 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.381 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.382 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.4 MB, 1640 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.664 (0) backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: size is now: 4.40 MB
+0000.667 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: 600 files added (on-disk size: 4464.3 KB)
+0000.670 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: 700 files added (on-disk size: 4464.3 KB)
+0000.672 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: 800 files added (on-disk size: 4464.3 KB)
+0000.675 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: 900 files added (on-disk size: 4464.3 KB)
+0000.679 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: 1000 files added (on-disk size: 4464.3 KB)
+0000.680 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 1640 files batched, 501 (1002) added so far); re-opening (prior size: 4464.3 KB)
+0000.792 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: 1100 files added (on-disk size: 5199.1 KB)
+0000.795 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: 1200 files added (on-disk size: 5199.1 KB)
+0000.798 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: 1300 files added (on-disk size: 5199.1 KB)
+0000.800 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: 1400 files added (on-disk size: 5199.1 KB)
+0000.803 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: 1500 files added (on-disk size: 5199.1 KB)
+0000.803 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 1640 files batched, 501 (1503) added so far); re-opening (prior size: 5199.1 KB)
+0001.049 (0) backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: size is now: 6.90 MB
+0001.053 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: 1600 files added (on-disk size: 7080.2 KB)
+0001.795 (0) backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip.tmp: size is now: 10.40 MB
+0001.960 (0) Created plugins zip (0) - 10683.1 KB in 1.6 s (6613.5 KB/s) (sha1: 6379f6769b400219e53ae438e32fc5d12be8eefd, sha256: ede780ad51fc033a7b455ffd4f0258f851f225bd4d6a2c031caf3e77ef5e6bfc)
+0001.961 (0) Beginning creation of dump of themes (split every: 400 MB)
+0002.145 (0) Total entities for the zip file: 34 directories, 174 files (0 skipped as non-modified), 4.5 MB
+0002.149 (0) Zip: backup_2018-03-14-1230_Jena_1b06735c8fe2-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.260 (0) backup_2018-03-14-1230_Jena_1b06735c8fe2-themes.zip.tmp: size is now: 3.80 MB
+0002.377 (0) Created themes zip (0) - 3914 KB in 0.2 s (16570.8 KB/s) (sha1: 75099c21ae383f49d7d22d2248d08e2695728a1c, sha256: 924773fbac3e32a88535ce4c40c68bd5f1a1718dda084009a927d3fc25bfbb53)
+0002.379 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0002.379 (0) Looking for candidates to back up in: /home/prassleriktkhk/public_html/wordpress/wp-content/uploads
+0002.380 (0) finding files: 2018: adding to list (1)
+0002.381 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0002.568 (0) Total entities for the zip file: 2 directories, 73 files (0 skipped as non-modified), 6 MB
+0002.612 (0) backup_2018-03-14-1230_Jena_1b06735c8fe2-uploads.zip.tmp: size is now: 6.00 MB
+0002.714 (0) Created uploads zip (0) - 6179.3 KB in 0.1 s (41733.4 KB/s) (sha1: 04e1cb7ef0ba3bd142d8f830a7fa95eab840e311, sha256: 34a78ca824ca40ed27891fe2b0aae475b448c5a32ee2e2042e8d4c2c49e98e37)
+0002.716 (0) Beginning backup of other directories found in the content directory (index: 0)
+0002.716 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0002.717 (0) Looking for candidates to back up in: /home/prassleriktkhk/public_html/wordpress/wp-content
+0002.718 (0) finding files: themes: skipping: this is the themes directory
+0002.718 (0) finding files: index.php: adding to list (1)
+0002.719 (0) finding files: plugins: skipping: this is the plugins directory
+0002.719 (0) finding files: uploads: skipping: this is the uploads directory
+0002.720 (0) finding files: upgrade: skipping: excluded by options
+0002.720 (0) finding files: updraft: skipping: this is the updraft directory
+0002.839 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0002.846 (0) backup_2018-03-14-1230_Jena_1b06735c8fe2-others.zip.tmp: size is now: 0.00 MB
+0002.849 (0) Created others zip (0) - 0.2 KB in 0 s (12.5 KB/s) (sha1: 6c69d2b398ca0966e83b641d7666f8ed961f0d17, sha256: 3af01186f9939fc318c59b0d0e9e8b8e1f3ee7a45f6a3000d267ffec08cb928c)
+0002.852 (0) Saving backup status to database (elements: 8)
+0002.855 (0) No database backup (wp) - not part of this run
+0002.857 (0) backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0002.858 (0) backup_2018-03-14-1230_Jena_1b06735c8fe2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0002.858 (0) backup_2018-03-14-1230_Jena_1b06735c8fe2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0002.859 (0) backup_2018-03-14-1230_Jena_1b06735c8fe2-others.zip: others: This file has not yet been successfully uploaded: will queue
+0002.860 (0) Saving backup history. Total backup size: 20.3 MB
+0002.863 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0002.866 (0) Cloud backup selection (1/1): email with instance (1/1) (last)
+0002.867 (0) Beginning dispatch of backup to remote (email)
+0002.868 (0) backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip: email to: pasca...
+0003.672 (0) Recording as successfully uploaded: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip (1f17566564d6991c1879d64cfc9b73c3)
+0003.679 (0) Deleting local file: backup_2018-03-14-1230_Jena_1b06735c8fe2-plugins.zip: OK
+0003.680 (0) backup_2018-03-14-1230_Jena_1b06735c8fe2-themes.zip: email to: pasca...
+0004.034 (0) Recording as successfully uploaded: backup_2018-03-14-1230_Jena_1b06735c8fe2-themes.zip (f56860a06d6e6aedaa6353f9026c6489)
+0004.038 (0) Deleting local file: backup_2018-03-14-1230_Jena_1b06735c8fe2-themes.zip: OK
+0004.039 (0) backup_2018-03-14-1230_Jena_1b06735c8fe2-uploads.zip: email to: pasca...
+0004.444 (0) Recording as successfully uploaded: backup_2018-03-14-1230_Jena_1b06735c8fe2-uploads.zip (1729578cfe813592457cf8be869b3ff7)
+0004.450 (0) Deleting local file: backup_2018-03-14-1230_Jena_1b06735c8fe2-uploads.zip: OK
+0004.450 (0) backup_2018-03-14-1230_Jena_1b06735c8fe2-others.zip: email to: pasca...
+0004.543 (0) Recording as successfully uploaded: backup_2018-03-14-1230_Jena_1b06735c8fe2-others.zip (83cf3bfa2c3edc25967c70108b3eb77a)
+0004.546 (0) Deleting local file: backup_2018-03-14-1230_Jena_1b06735c8fe2-others.zip: OK
+0004.547 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0004.548 (0) Number of backup sets in history: 2; groups (db): 1
+0004.548 (0) Examining (for databases) backup set with group_id=0, nonce=1b06735c8fe2, datestamp=1521030656 (Mar 14 2018 12:30:56)
+0004.549 (0) Examining (for databases) backup set with group_id=0, nonce=a8552f07d9de, datestamp=1521030624 (Mar 14 2018 12:30:24)
+0004.549 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.550 (0) Number of backup sets in history: 2; groups (files): 1
+0004.550 (0) Examining (for files) backup set with nonce=1b06735c8fe2, datestamp=1521030656 (Mar 14 2018 12:30:56)
+0004.550 (0) This backup set is the backup set just made, so will not be deleted.
+0004.551 (0) This backup set is the backup set just made, so will not be deleted.
+0004.551 (0) This backup set is the backup set just made, so will not be deleted.
+0004.551 (0) This backup set is the backup set just made, so will not be deleted.
+0004.551 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0004.552 (0) Examining (for files) backup set with nonce=a8552f07d9de, datestamp=1521030624 (Mar 14 2018 12:30:24)
+0004.552 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.552 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0004.554 (0) Resume backup (1b06735c8fe2, 0): finish run
+0004.555 (0) Decremented the semaphore (f) by 1
+0004.556 (0) Semaphore (f) unlocked
+0004.557 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0004.559 (0) No email will/can be sent - the user has not configured an email address.
+0004.560 (0) The backup apparently succeeded and is now complete
