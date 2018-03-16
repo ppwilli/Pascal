@@ -3,7 +3,7 @@
 /*
 Plugin Name: Google Language Translator
 Plugin URI: http://wp-studio.net/
-Version: 5.0.47
+Version: 5.0.48
 Description: The MOST SIMPLE Google Translator plugin.  This plugin adds Google Translator to your website by using a single shortcode, [google-translator]. Settings include: layout style, hide/show specific languages, hide/show Google toolbar, and hide/show Google branding. Add the shortcode to pages, posts, and widgets.
 Author: Rob Myrick
 Author URI: http://wp-studio.net/
@@ -635,7 +635,7 @@ class google_language_translator {
   public function initialize_settings() {
     add_settings_section('glt_settings','Settings','','google_language_translator');
 
-    $settings_name_array = array ('googlelanguagetranslator_active','googlelanguagetranslator_language','language_display_settings','googlelanguagetranslator_flags','googlelanguagetranslator_translatebox','googlelanguagetranslator_display','glt_language_switcher_width','glt_language_switcher_text_color','glt_language_switcher_bg_color','googlelanguagetranslator_toolbar','googlelanguagetranslator_showbranding','googlelanguagetranslator_flags_alignment','googlelanguagetranslator_analytics','googlelanguagetranslator_analytics_id','googlelanguagetranslator_css','googlelanguagetranslator_multilanguage','googlelanguagetranslator_floating_widget','googlelanguagetranslator_flag_size','googlelanguagetranslator_flags_order','googlelanguagetranslator_english_flag_choice','googlelanguagetranslator_spanish_flag_choice','googlelanguagetranslator_portuguese_flag_choice','googlelanguagetranslator_floating_widget_text','googlelanguagetranslator_floating_widget_text_allow_translation','glt_floating_widget_position','glt_floating_widget_bg_color');
+    $settings_name_array = array ('googlelanguagetranslator_active','googlelanguagetranslator_language','language_display_settings','googlelanguagetranslator_flags','googlelanguagetranslator_translatebox','googlelanguagetranslator_display','glt_language_switcher_width','glt_language_switcher_text_color','glt_language_switcher_bg_color','googlelanguagetranslator_toolbar','googlelanguagetranslator_showbranding','googlelanguagetranslator_flags_alignment','googlelanguagetranslator_analytics','googlelanguagetranslator_analytics_id','googlelanguagetranslator_css','googlelanguagetranslator_multilanguage','googlelanguagetranslator_floating_widget','googlelanguagetranslator_flag_size','googlelanguagetranslator_flags_order','googlelanguagetranslator_english_flag_choice','googlelanguagetranslator_spanish_flag_choice','googlelanguagetranslator_portuguese_flag_choice','googlelanguagetranslator_floating_widget_text','glt_floating_widget_text_color','googlelanguagetranslator_floating_widget_text_allow_translation','glt_floating_widget_position','glt_floating_widget_bg_color');
 
     foreach ($settings_name_array as $setting) {
       add_settings_field( $setting,'',$setting.'_cb','google_language_translator','glt_settings');
@@ -813,6 +813,20 @@ $('.languages').find('input:checkbox').prop('checked', false); }); }); </script>
         <option value="top_center" <?php if($options=='top_center'){echo "selected";}?>>Top center</option>
 	    <option value="top_right" <?php if($options=='top_right'){echo "selected";}?>>Top right</option>
       </select>
+  <?php
+  }
+
+  public function glt_floating_widget_text_color_cb() {
+    $option_name = 'glt_floating_widget_text_color';
+    $new_value = '#ffffff';
+
+    if (get_option($option_name) === false):
+      update_option($option_name, $new_value);
+    endif;
+
+    $options = get_option(''.$option_name.''); ?>
+
+    <input type="text" name="glt_floating_widget_text_color" id="glt_floating_widget_text_color" class="color-field" value="<?php echo $options; ?>"/>
   <?php
   }
 	
@@ -1281,6 +1295,11 @@ $('.languages').find('input:checkbox').prop('checked', false); }); }); </script>
 					<tr class="floating-widget floating-widget-position notranslate hidden">
 	                  <td>Floating Widget Position: <strong style="color:red">NEW!</strong></td>
 		              <td><?php $this->glt_floating_widget_position_cb(); ?></td>
+		            </tr>
+
+                    <tr class="floating-widget floating-widget-text-color notranslate hidden">
+	                  <td>Floating Widget Text Color: <strong style="color:red">NEW!</strong></td>
+		              <td><?php $this->glt_floating_widget_text_color_cb(); ?></td>
 		            </tr>
 					  
 					<tr class="floating-widget floating-widget-color notranslate hidden">

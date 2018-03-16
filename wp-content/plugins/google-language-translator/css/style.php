@@ -6,6 +6,7 @@ $language_switcher_text_color = get_option('glt_language_switcher_text_color');
 $language_switcher_bg_color = get_option('glt_language_switcher_bg_color');
 $glt_display = get_option('googlelanguagetranslator_display');
 $floating_widget_position = get_option ('glt_floating_widget_position');
+$floating_widget_text_color = get_option ('glt_floating_widget_text_color');
 $floating_widget_bg_color = get_option('glt_floating_widget_bg_color');
 
 echo '<style type="text/css">';
@@ -112,6 +113,10 @@ elseif ($floating_widget_position == 'top_center'):
   echo '.tool-container.tool-top .arrow { border-color:transparent transparent #d0cbcb; top:-14px; }';
 elseif ($floating_widget_position == 'bottom_center'):
   echo '#glt-translate-trigger { left:50%; margin-left:-63px; right:auto; }';
+endif;
+
+if (!empty($floating_widget_text_color)):
+  echo '#glt-translate-trigger > span { color:'.$floating_widget_text_color.'; }';
 endif;
 
 if (!empty($floating_widget_bg_color)):
