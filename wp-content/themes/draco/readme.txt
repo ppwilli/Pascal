@@ -74,6 +74,14 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
     Changelog
 -------------------------------------------------------
 
+= 1.2.6.1 =
+
+Show author display_name tag in post and page header. 
+
+= 1.2.6 =
+
+Show author tag in post and page header. 
+
 = 1.2.5 =
 
 Responsive header images in apple devices.

@@ -147,7 +147,7 @@ function draco_pingback_header() {
 	}
 }
 add_action( 'wp_head', 'draco_pingback_header' );
-remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
+
 /**
  * Enqueue scripts and styles.
  */

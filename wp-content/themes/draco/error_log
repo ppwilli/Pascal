@@ -1,4 +1,0 @@
-[20-Mar-2018 07:49:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/prassleriktkhk/public_html/wordpress/wp-content/themes/draco/index.php:15
-Stack trace:
-#0 {main}
-  thrown in /home/prassleriktkhk/public_html/wordpress/wp-content/themes/draco/index.php on line 15

@@ -14,8 +14,9 @@
 
   if(is_single() || is_page()) {
     $title_draco = get_the_title();
-    $author = get_the_author();
-
+    //$author = get_the_author();
+    global $post;
+    $author = get_the_author_meta('display_name', $post->post_author);
     $time = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
 
     $time = sprintf( $time,
@@ -27,7 +28,10 @@
 
     
     if(is_page()) $description = '';
-    else $description = $author.', '.$time;
+    else {
+      if($author!="") $description = $author.', '.$time;
+      else $description = $time;
+    }
 
     $format = get_post_format(get_the_ID());
     if ( false === $format ) {
